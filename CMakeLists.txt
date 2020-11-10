@@ -5,5 +5,5 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(main main.cpp)
 
-add_executable(test_thread_pool src/tiny_threadpool.h test/test_threadpool.cpp)
+add_executable(test_thread_pool test/test_threadpool.cpp)
 
